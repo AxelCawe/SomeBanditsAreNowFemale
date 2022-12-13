@@ -13,6 +13,15 @@
     <DependedModule Id="T8FemaleTroopsReborn" />
   </DependedModules>
   <SubModules>
+	<SubModule>
+             <Name value="SomeBanditsAreNowFemale"/>
+             <DLLName value="SomeBanditsAreNowFemale.dll"/>
+             <SubModuleClassType value="SomeBanditsAreNowFemale.SubModule"/>
+             <Tags>
+                 <Tag key="DedicatedServerType" value="none" />
+                 <Tag key="IsNoRenderModeElement" value="false" />
+             </Tags>
+      </SubModule>
   </SubModules>
 	<Xmls>
 
